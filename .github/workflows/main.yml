@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-        uses: 10kc/hotfix-checker@v1
+        uses: 10kc-zack/hotfix-checker@v1
         id: hello
         with:
           who-to-greet: 'Mona the Octocat'
