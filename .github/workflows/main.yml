@@ -1,0 +1,9 @@
+on: [pull_request]
+
+jobs:
+  hotfix_checker:
+    runs-on: ubuntu-latest
+    name: Check hotfixes
+    steps:
+    - name: Hotfix Check
+      uses: 10kc-zack/hotfix-checker@v1
